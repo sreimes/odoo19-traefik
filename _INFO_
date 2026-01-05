@@ -4,3 +4,7 @@ github.com/Mimbex/docker-traefik
 Reason for cloning:
 - To be sure to have the source files which I used for my own docker image for odoo19
 - For making changes and then to do a reclone from Komodo
+
+After cloning in Komodo:
+- Change MasterPassword in odoo/odoo.conf
+- comment out db_filter
