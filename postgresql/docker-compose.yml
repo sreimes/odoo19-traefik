@@ -1,5 +1,6 @@
 services: 
   postgresql:
+    container_name: odoo19_postgresql
     image: postgres:17
     restart: always
     networks:
